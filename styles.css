@@ -1,0 +1,67 @@
+/* align the todolist to the center of the page */
+body{
+    background-color: #f8e9d2;
+}
+p{
+    font-size: larger;
+    /* font-weight: bold; */
+    font-weight: 500;
+}
+.todolist{
+    width: 460px;
+    margin: 0 auto;
+    background-color: #f8e9d2;
+}
+.list-heading > .add-item , .list {
+    margin: 10px auto;
+    /* width: 100%; */
+    
+}
+.list-heading{
+    text-align: center;
+    margin: 10px auto;
+}
+.list-heading> h1{
+    margin: 10px auto;
+    color: blue !important;
+}
+
+.list > .list-item{
+
+    display: flex;
+    margin: 10px auto;
+    background-color: #82f0c9;
+    border-radius: 5px;
+}
+.list-item > button{
+    /* background-color: red; */
+    width: 42.5px;
+    border-radius: 10px;
+    margin: 3px;
+    border: 0px;
+}
+
+.list-item > .deleteBtn{
+    background-color: #de3e6c;
+}
+.list-item > .moveUpBtn{
+    background-color: #4cbce2;
+}
+.list-item > .moveDownBtn{
+    background-color: #eb973d;
+}
+.add-item > .input{
+
+    margin: 10px auto;
+    padding: 15px;
+    width: 300px;
+    background-color: white;
+    border: 1.5px solid black;
+}
+.addBtn{
+    margin: 10px auto;
+    padding: 15px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid black;
+}
